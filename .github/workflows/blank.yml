@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .artwork {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .artwork img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .artwork p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .artwork .actions {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #999;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art Gallery</h1>
+    </header>
+    <div class="container">
+        <!-- Artwork Section (dynamic content) -->
+        <div class="artwork">
+            <img src="path_to_your_artwork_image.jpg" alt="Artwork Title">
+            <p>Caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="actions">
+                <span>Tags: #art #digitalart #creative</span>
+                <br>
+                <span>Likes: 100</span>
+                <span>Comments: 20</span>
+            </div>
+        </div>
+
+        <!-- Repeat the above section for each artwork -->
+
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
